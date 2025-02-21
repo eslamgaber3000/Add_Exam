@@ -1,0 +1,32 @@
+& {
+    color: blue;
+    font-weight: bold;
+  }
+  
+  &:hover {
+    background-color: wheat;
+  }
+
+.example {
+    color:blue;
+    font-size: x-large;
+    background-color: cyan;
+
+    & > a{
+
+        color:  red;
+    
+    }
+& a:hover ,
+& a:focus
+ {
+    color: navy;
+    background-color: white;
+
+
+}
+}
+
+/* this code without nesting & operator */
+
+
